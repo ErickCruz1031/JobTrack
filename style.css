@@ -1,0 +1,28 @@
+
+input[type=text] {
+    width: 150px;
+    height: 20px; 
+    padding: 4px 4px;
+    margin: 4px 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white 
+}
+
+header{
+    background-color: aliceblue;
+    font-family: times, serif;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 10px;
+    border-bottom-style: outset;
+}
+
+button {
+
+    margin-top: 10px;
+    
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Extension",
+    "version": "0.0.1",
+    "manifest_version":2,
+    "browser_action": {
+        "default_title": "Developing",
+        "default_popup": "popup.html",
+        "default_icon":{
+            "32": "icon.png"
+        }
+    },
+
+    
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+
+
+
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
